@@ -1,0 +1,7 @@
+como Compilar
+ 
+Instalar las librerias boost_devel del sistema
+
+Compilar con includes y flags
+
+g++ main.cpp -o boost_test -I/usr/include/boost -lboost_timer -lboost_system -lboost_thread
